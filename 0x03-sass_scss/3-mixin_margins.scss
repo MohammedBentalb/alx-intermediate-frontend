@@ -1,0 +1,11 @@
+@mixin margin-inline($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+
+body {
+  @include margin-inline(10px);
+}
+div {
+  @include margin-inline(15px);
+}
